@@ -6,17 +6,17 @@ const list = [
   {
     name: 'laundry',
     compleated: false,
-    index: 0,
+    index: 1,
   },
   {
     name: 'litter',
     compleated: true,
-    index: 1,
+    index: 2,
   },
   {
     name: 'dishes',
     compleated: false,
-    index: 2,
+    index: 3,
   },
 ];
 
