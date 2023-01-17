@@ -1,4 +1,7 @@
-<a name="readme-top"></a>
+![](https://img.shields.io/badge/Academic-blue)
+![](https://img.shields.io/badge/HTML-red)
+![](https://img.shields.io/badge/JavaScript-yellow)
+
 
 <!--
 HOW TO USE:
@@ -27,7 +30,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+ 
   <br/>
 
   <h3><b>Microverse README Template</b></h3>
@@ -60,11 +63,13 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [TO-DO LIST] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> Simple HTML list of To Do tasks made with Webpack and javascript
 
-**[your_project__name]** is a...
+
+**[To-do list]**  is a simple HTML list of To Do tasks made with Webpack and javascript
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -75,21 +80,12 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li>HTML5</li>
+    <li>CSS</li>
+    <li>JS</li>
+    <li>ESLint</li>
+    <li>StyleLints</li>
+    <li>GitFlow</li>
   </ul>
 </details>
 
@@ -99,9 +95,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[GIT FLOW]**
+- **[Good HTML, JS and CSS practices]**
+- **[Dynamically]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -142,11 +138,11 @@ Clone this repository to your desired folder:
 <!--
 Example commands:
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
+```sh```
 --->
+  cd my-folder
+  git clone https://github.com/banzaman/ES6-Todo-List
+
 
 ### Install
 
@@ -208,28 +204,11 @@ Example:
 👤 **Author1**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/Mar)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
@@ -237,7 +216,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/banzaman/ES6-Todo-List/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -267,13 +246,13 @@ I would like to thank...
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+- **What is this for?**
 
-  - [Answer_1]
+  - This is a JavaScript activity to help us learn how to create a nice website with best practices and with content storage and manipulation.
 
-- **[Question_2]**
+- **Can i copy this project?**
 
-  - [Answer_2]
+  - Your welcome, copy this project and let me know if you need something.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
