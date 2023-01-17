@@ -1,21 +1,37 @@
-import _ from 'lodash';
+//import _ from 'lodash';
 import './style.css';
 //import Icon from './icon.png';
 
-function component() {
-    const element = document.createElement('div');
-  
-    // Lodash, now imported by this script
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-    element.classList.add('hello');
+const todoList = document.getElementById('todoList');
 
-    // Add the image to our existing div.
-  const myIcon = new Image();
-  myIcon.src = Icon;
+const list = [
+  {
+    name: 'laundry',
+    compleated: false,
+    index: 0,
+  },
+  {
+    name: 'litter',
+    compleated: true,
+    index: 1,
+  },
+  {
+    name: 'dishes',
+    compleated: false,
+    index: 2,
+  },
+];
 
-  element.appendChild(myIcon);
-  
+const newLi = (name, index, compleated) => {
+  const element = document.createElement('li');
+  if (compleated) {
+    element.innerHTML = `<input type="checkbox" name="${index}" checked><label for="${index}">${name}</label>`;
     return element;
   }
-  
-  document.body.appendChild(component());
+  element.innerHTML = `<input type="checkbox" name="${index}"><label for="${index}">${name}</label>`;
+  return element;
+};
+
+list.forEach((item) => {
+  todoList.appendChild(newLi(item.name, item.index, item.compleated));
+});
