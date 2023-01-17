@@ -1,6 +1,6 @@
-//import _ from 'lodash';
 import './style.css';
 //import Icon from './icon.png';
+//import _ from 'lodash';
 
 const todoList = document.getElementById('todoList');
 
