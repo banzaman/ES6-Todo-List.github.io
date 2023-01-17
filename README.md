@@ -80,26 +80,12 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Client</summary>
-  <ul>
     <li>HTML5</li>
     <li>CSS</li>
     <li>JS</li>
     <li>ESLint</li>
     <li>StyleLints</li>
     <li>GitFlow</li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
 </details>
 
@@ -218,7 +204,7 @@ Example:
 👤 **Author1**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/Mar)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
