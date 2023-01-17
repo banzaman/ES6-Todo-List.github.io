@@ -55,10 +55,6 @@ h1 {
   width: 35px;
 }
 
-#enter:hover {
-  cursor: pointer;
-}
-
 .remove {
   height: 20px;
   width: 20px;
