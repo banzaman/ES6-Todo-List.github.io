@@ -21,4 +21,4 @@ task.list.forEach((item) => {
   );
 });
 
-listen(task.list, trashImg, todoList); 
+listen(task.list, trashImg, todoList);
