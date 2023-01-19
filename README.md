@@ -70,7 +70,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]( https://banzaman.github.io/ES6-Todo-List.github.io/)
+- [Live Demo Link]( https://banzaman.github.io/ES6-Todo-List.github.io/dist)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
