@@ -4,8 +4,7 @@ import toLS from './saveLocalStorage.mjs';
 import checkBox from './checkbox.mjs';
 
 
-const addDiv = document.getElementById('add');
-const input = document.getElementById('addTask');
+
 
 // CreateTask
 const newTask = (name, index) => {
@@ -32,6 +31,8 @@ const addToLi = (name, index, trashImg, taskList, todoList) => {
 
 // Add task to the list and display
 const listen = (taskList, trashImg, todoList) => {
+  const addDiv = document.getElementById('add');
+  const input = document.getElementById('addTask');
   addDiv.addEventListener('submit', (e) => {
     e.preventDefault();
     if (input.value) {
@@ -44,4 +45,4 @@ const listen = (taskList, trashImg, todoList) => {
   });
 };
 
-export default listen;
+export { listen, addToLi, newTask };
