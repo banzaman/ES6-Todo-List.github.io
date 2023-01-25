@@ -22,11 +22,13 @@ describe('addToLi Function', () => {
 
 describe('listen Function', () => {
   test('Click add Task', () => {
-    document.body.innerHTML = `<form id="add" class="task">
-    <input id="addTask" type="text" name="addTask" value="Feed dogs" placeholder="Add to your list...">
-    <button type="submit" id="enter"></button>
+    document.body.innerHTML = `
+    <form id="add" class="task">
+      <input id="addTask" type="text" name="addTask" value="Feed dogs" placeholder="Add to your list...">
+      <button type="submit" id="enter"></button>
     </form>
-    <ul id="todoList"></ul>`;
+    <ul id="todoList">
+    </ul>`;
 
     const todoList = document.querySelector('#todoList');
     const taskList = [];
@@ -44,12 +46,13 @@ describe('listen Function', () => {
 
 describe('remove Function', () => {
   test('remove element', () => {
-    document.body.innerHTML = `<ul id="todoList">
-    <li class="task">
-    <input type="checkbox" name="0">
-    <label for="0">Feed cats</label>
-    <div class="remove"><img src="img"></div>
-    </li>
+    document.body.innerHTML = `
+    <ul id="todoList">
+      <li class="task">
+        <input type="checkbox" name="0">
+        <label for="0">Feed cats</label>
+        <div class="remove"><img src="img"></div>
+      </li>
     </ul>`;
 
     const taskList = [{ name: 'Feed cats', index: 0, done: false }];
